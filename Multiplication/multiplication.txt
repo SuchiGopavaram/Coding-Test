@@ -1,0 +1,11 @@
+function mul(a) {
+  return function(b) {
+     return function(c) {
+          return a*b*c;
+		} 
+	} 
+}
+
+//Test
+
+console.log(mul(10)(20)(30))
